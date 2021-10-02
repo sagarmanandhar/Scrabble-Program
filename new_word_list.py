@@ -52,7 +52,7 @@ def scrabble_score_COUNT():
                       total_1 = total_1+score_1[X.lower()]
              else:
                 raise ValueError("Invalid Input .....Accept only Characters")
-    #return  total_1
+    #return  total_1G
         except ValueError as e:
             print("Information for User",e)
             total_1="No result"
